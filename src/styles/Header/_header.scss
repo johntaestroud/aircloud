@@ -1,0 +1,40 @@
+.navbar {
+    padding: 20px;
+    margin-bottom: 40px;
+    background-color: $main-black-color;
+  
+.air-search {
+      height: 50px;
+      width: 250px !important;
+    }
+  
+.navbar-brand {
+      margin-right: 40px;
+      font-size: 29px;
+      letter-spacing: 1px;
+      color: $main-color !important;
+      font-weight: 600;
+    }
+  
+.nav-item {
+      font-size: 15px;
+    }
+  
+.btn-air-search {
+      color: $main-color;
+      border-color: $main-color;
+      
+  
+      &:hover, &:focus, &:active {
+        background-color: transparent !important;
+        border-color: $main-color !important;
+        color: $main-color !important;
+        box-shadow: none;
+      }
+    }
+  
+.nav-item {
+      color: $main-white-color;
+    }
+  }
+  
